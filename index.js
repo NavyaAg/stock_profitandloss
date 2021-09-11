@@ -8,13 +8,13 @@ var message=document.querySelector(".output");
     if(initialPrice<currentPrice){        
         var profit=(currentPrice-initialPrice)*quantity;
         var profitPercent=((profit/initialPrice)*100).toFixed(2);
-        message.innerText="Profit is "+profit+" which is "+profitPercent+"%";
+        message.innerText="Profit is ₹ "+profit+" which is "+profitPercent+"%";
        
     }
     else if(initialPrice>currentPrice){
         var loss=(initialPrice-currentPrice)*quantity;
         var lossPercent=((loss/initialPrice)*100).toFixed(2);
-        message.innerText="loss is "+loss+" which is "+lossPercent+"%";
+        message.innerText="loss is ₹ "+loss+" which is "+lossPercent+"%";
        
     }
     else

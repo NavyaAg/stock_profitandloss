@@ -52,3 +52,22 @@ h1{
     font-weight: 600;
     margin: 1rem;
 }
+
+i{
+    font-size: 32px;
+    color:black;
+    margin: 0.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    padding: 1.5rem;
+  }
+
+  .icons li{
+    display: inline;
+    padding:0 .5rem;
+  }
